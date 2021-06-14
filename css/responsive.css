@@ -1,0 +1,40 @@
+@media screen and (max-width: 1140px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .navbar {
+    height: 447px;
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+  }
+
+  .nav-list a {
+    border: 1px solid white;
+  }
+
+  .rightnav {
+    text-align: center;
+  }
+
+  #search {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .h-nav {
+    height: 69px;
+  }
+
+  .v-class {
+    opacity: 0;
+  }
+
+  .text-small {
+    width: 100%;
+  }
+}

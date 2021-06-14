@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/signupstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <form action="Registration.php" method="POST" id="redform1">
+          <div class="heading">
+            <img src="img/img.jpg" class="logo" />
+            <h1>Registration Form</h1>
+          </div>
+          <!--Form-->
+          <div class="wrap">
+            <div class="f1">
+              <label>Name</label>
+              <input type="text" name="FullName" required />
+              <span class="focus-input"></span>
+            </div>
+            <div class="f2">
+              <label>Username</label>
+              <input type="text" name="Username" required />
+              <span class="focus-input"></span>
+            </div>
+          </div>
+          <div class="wrap2">
+            <label>Email</label>
+            <input type="email" name="UserEmail" required />
+            <span class="focus-input2"></span>
+          </div>
+          <div class="wrap2">
+            <label>Password</label>
+            <input type="password" name="UserPassword" required />
+            <span class="focus-input2"></span>
+          </div>
+          <div class="wrap2">
+            <label>Confirm Passwrod</label>
+            <input type="password" name="ConfirmPassword" required />
+            <span class="focus-input2"></span>
+          </div>
+
+          <input class="btn" type="submit" ></input>
+        </form>
+      </div>
+      <!--Image-->
+      <div class="image">
+        <img src="img/4735.jpg" class="img" alt="" />
+      </div>
+    </div>
+    
+  </body>
+</html>
